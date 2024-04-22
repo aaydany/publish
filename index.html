@@ -3,139 +3,107 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta name="description" content="This is an example of a meta description. This will often show up in search results so it is important to write a high quality description for each page of a website">
-	<title>Final Assignment::Home</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="description" content="Groove guitars carries the grooviest guitars on the planet! Stop by our store to find your groove.">
+	<title>Groove Guitars::Home</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 	<header>
-		<img src="images/logo.png" alt="logo" height="100" width="400" class="logo">
+		<img src="images/groove-guitars-logo.png" height="50" width="200" alt="Groove Guitars Logo" class="logo">
 	</header>
 
 	<nav>
 		<ul>
-			<li><i class="fa fa-home" aria-hidden="true"></i><a href="index.html">Home</a></li>
-			<li><i class="fa fa-bolt" aria-hidden="true"></i><a href="resume.html">Resume</a></li>
-            <li><i class="fa fa-star" aria-hidden="true"></i><a href="portfolio.html">Potfolio</a></li>
-            <li><i class="fa fa-gamepad" aria-hidden="true"></i><a href="game.html">Game</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="grooves.html">Grooves</a></li>
 		</ul>
 	</nav>
 
 	<div id="home-hero">
-		<img src="images/circle-image.jpg" height="137" width="114" class="image">
-		<h1>Welcome to my portfollio!</h1>
+		<h1>Find your groove!</h1>
 	</div>
 
 	<main>
-		<div class="container-fluid">
+		<h2>Welcome to Guitar Groove!</h2>
+		<img src="images/groovy-player.jpg" class="picture">
+		<p>At Groove Guitars, we are more than just a guitar store; we are a haven for musicians and enthusiasts alike, where the art of crafting and playing guitars merges seamlessly with the rhythm of your life. Nestled in the heart of the city, our store is a haven for those who live and breathe music.
+		<p>At Groove Guitars, we don't just sell guitars; we celebrate the beauty of music, craftsmanship, and the enduring power of melody. Whether you're a professional musician or a weekend strummer, our store is a place where you can find your rhythm, explore new horizons, and groove to the beat of your own tune. Visit us today and embark on a musical journey that will resonate with you for a lifetime.</p>
 
-			<div class="row">
-				<div class="col-sm-6">
-					<h2>About Me</h2>
-					<blockquote>My name is Ayse Aydan Yetkin and I study Data Science at Saint Paul College in St. Paul, Minnesota. Before moving to United States, I studied veterinary medicine at Istanbul University, which was founded in 1453. After moving here, I decided to study data science, which I have always been interested in. My planned graduation date is Decemcer 2024 with the Data Science. I made this website as a portfolio of my skills developing websites.
-
-					I have taken the following classes at Saint Paul College:
-						<ul>
-							<li>Web Fundamentals, where I learned HTML and CSS</li>
-							<li>Computer Science and Information Systems</li>
-							<li>Introduction to Computing and Programming Concepts</li>
-						</ul>
+		<p>Stop by our store! The right guitar for you makes all the difference. We specialize in matching players to the right guitar. We can help you find your groove.</p>
 		
-					Next semester I will be taking Intermediate Statistics.
+		<h2>Hours of Operation</h2>
+		<table>
+			<tr>
+				<th>Day</th>
+				<th>Hours</th>
+				<th>Services Available</th>
+			</tr>
+			<tr>
+				<td>Sunday</td>
+				<td>11am to 3 pm</td>
+				<td>Sales Only</td>
+			</tr>
+			<tr>
+				<td>Monday</td>
+				<td>11am to 9 pm</td>
+				<td>Sales, Lessons, Repairs</td>
+			</tr>
+			<tr>
+				<td>Tuesday</td>
+				<td>11am to 9 pm</td>
+				<td>Sales, Lessons, Repairs</td>
+			</tr>
+			<tr>
+				<td>Wednesday</td>
+				<td>11am to 9 pm</td>
+				<td>Sales, Lessons, Repairs</td>
+			</tr>
+			<tr>
+				<td>Thursday</td>
+				<td>11am to 9 pm</td>
+				<td>Sales, Lessons, Repairs</td>
+			</tr>
+			<tr>
+				<td>Friday</td>
+				<td>11am to 6 pm</td>
+				<td>Sales, Lessons, Repairs</td>
+			</tr>
+			<tr>
+				<td>Saturday</td>
+				<td>11am to 6 pm</td>
+				<td>Sales, Lessons, Repairs available until 3pm</td>
+			</tr>
+		</table>
+		<h2>How Can We Help You?</h2>
+		<p>Looking for a certain guitar? Let us know and we can help you look. Need help with guitar and bass lessons? Let us know your skill level and hours available and we will match you with an instructor.</p>
+	<form method="post" action="https://webdevstudents.com/portfolio/submit-form.php"><br>
+		<label for="first_name">*First Name</label><br>
+		<input type="text" name="first_name" id="first_name"><br>
 
-					My hobbies include video gaming, travelling, and dancing.</blockquote>
-				</div>
-				<div class= "col-sm-6">
-					<img src="images/istanbul-home-photo.png" height="500" width="550" style="padding-top: 57px">
-					<blockquote>Historical Gate of Istanbul University</blockquote>
-				</div>
-			</div>
-		</div>
+		<label for="last_name">*Last Name</label><br>
+		<input type="text" name="last_name" id="last_name"><br>
 
-		<form method="post" action="https://webdevstudents.com/portfolio/submit-form.php"><br>
-			<div class="row">
-				<div class="col-sm-4">
-					<h3><i class="fa fa-bolt" aria-hidden="true"></i><a href="resume.html">Resume</a></h3>
-					<p>Check out my resume! I am always looking for coding opportunities.</p>
-					<input type="submit"value="Learn more">
-				</div>
-				<div class="col-sm-4">
-					<h3><i class="fa fa-gamepad" aria-hidden="true"></i><a href="game.html">Game</a></h3>
-					<p>Check out my game! I made my custom version of the W3 Schools JavaScript game.</p>
-					<input type="submit"value="Learn more">
-				</div>
-				<div class="col-sm-4">
-					<h3><i class="fa fa-star" aria-hidden="true"></i><a href="portfolio.html">Potfolio</a></h3>
-					<p>My portfolio includes website as well as some special HTML/CSS projects.</p>
-					<input type="submit"value="Learn more">
-				</div>
-			</div>
-		</form>
+		<label for="email">*Email</label><br>
+		<input type="email" name="email" id="email"><br>
 
-		<h3>My Dance Pictures</h3>
-		<p>I made this photo gallery in JavaScript. It includes some dance pictures I have myself.</p>
-		<div class="row">
-			<div class="col-sm-12">
-				<img src="images/dance1.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
-			</div>
-		
-				<div class="row-thumbnails" style="margin:0 auto;text-align:center">
-					<img src="images/dance2.jpg">
-				</div>
-		
-				<div class="row-thumbnails" style="margin:0 auto;text-align:center">
-    				<img src="images/dance3.jpg">
-    			</div>
-    		
-    			<div class="row-thumbnails" style="margin:0 auto;text-align:center">
-    				<img src="images/dance4.jpg">
-    			</div>
+		<label for="phone">Phone</label><br>
+		<input type="tel" name="phone" id="phone"><br>
 
-    			<div class="row-thumbnails" style="margin:0 auto;text-align:center">
-					<img src="images/dance5.jpg">
-				</div>
-		
-				<div class="row-thumbnails" style="margin:0 auto;text-align:center">
-    				<img src="images/dance6.jpg">
-    			</div>
-    	
-    			<div class="row-thumbnails" style="margin:0 auto;text-align:center">
-    				<img src="images/dance7.jpg">
-    			</div>
+		<label for="comments">*Message </label><br>
+		<textarea id="comments" name="comments"></textarea><br>
 
-    			<div class="row-thumbnails" style="margin:0 auto;text-align:center">
-    				<img src="images/dance8.jpg">
-    			</div>
-    		</div>
-		</div>
+		<input type="submit"value="Let's Rock!">
+	</form>
 	</main>
-
-	<footer>
-		<div class="row">
-			<div class="col-sm-6">
-				<h4>Sample Potfolio Website for Web development Students</h4>
-				<p>This website is a sample portfolio website made for students at <a href="https://saintpaul.edu" target="_blank">Saint Paul College</a>. It features a mythical student named Ayse Aydan Yetkin.</p>
-				<p>The Ayse Aydan Yetkin Image is royalty free artwork by Bellinon from <a href="https://pixabay.com/illustrations/search/?order=ec&pagi=4" target="_blank">Pixabay.com</a></p>
-			</div>
-			<div class="col-sm-6">
-				<h4>Let's Connect!</h4>
-				<p><i class="fa fa-linkedin" aria-hidden="true"></i><a href="">Connerct on LinkedIn</a></p>
-				<p><i class="fa fa-github" aria-hidden="true"></i><a href="">Code on Github</a></p>
-				<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="">Email</a></p>
-			</div>
-		</div>
-        <div class="row">
-        	<div class="col-sm-12">
-        		<small><p>To learn more about web design check out <a href="https://webdevstudents.com/final-project/javascript-mod.html">WebDevStudents.com</a> and consider enrolling in the <a href="https://www.saintpaul.edu/programs/web-design">Web Design Certificate program</a> as Saint Paul College.</p>&copy; Copyright <a href="https://www.linkedin.com/company/white-buffalo/about/" target="_blank">White Buffalo LLC.</a></small>
-        	</div>
-        </div>
-	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
+		<footer>
+			<p><a href="mailto:me@gmail.com" target="_blank">Email Us</a> &bull;
+			<a href="tel:9999999999">Call Us</a> &bull;
+			<a href="sms:9999999999">Text Us</a>
+			<p>Grove Guitars is a fictional business. The website is a tutorial created as a learning tool for students of web development. The images are from Pixabary.com</p>
+			<small>&copy; 2023 White Buffalo LLC. All rights reserved.</small>
+		</footer>
+	
 </body>
 </html>
